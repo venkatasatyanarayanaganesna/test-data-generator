@@ -1,0 +1,11 @@
+{
+  "name": "signup-form",
+  "fields": [
+    { "name": "email", "type": "email" },
+    { "name": "password", "type": "string", "minLength": 8, "maxLength": 64 },
+    { "name": "age", "type": "number", "min": 18, "max": 120, "integer": true },
+    { "name": "role", "type": "enum", "values": ["admin", "user", "guest"] },
+    { "name": "subscribedToNewsletter", "type": "boolean" },
+    { "name": "signupDate", "type": "date", "min": "2020-01-01", "max": "2030-12-31" }
+  ]
+}
