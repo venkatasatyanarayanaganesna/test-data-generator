@@ -8,6 +8,9 @@
     "test": "vitest run"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@faker-js/faker": "^9.3.0"
   },
